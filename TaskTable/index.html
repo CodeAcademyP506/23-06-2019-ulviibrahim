@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+
+</head>
+
+<body>
+
+  <h1 class="header">My Favorite Movies</h1>
+
+  <div class="input">
+    <span class="title"> Title <input class="titleInput" type="text" value="Movies Title"></span>
+    <span class="raiting"> Raiting <input class="rate" type="text" value="Rate Movies from 0 to 10"></span>
+    <button class="btnAdd"> Add movie </button>
+  </div>
+  <div id="xeta"> *zehmet olmasa xanaları doldurun </div>
+
+
+  <div class="table">
+    <table id="mytable">
+      <tr>
+        <th><span>Title</span> 
+          <div class="icon">
+            <button class="angle" id="up">
+                <i class="fas fa-angle-up"n></i>          
+                </button>
+            <button class="angle" id="downName">
+                <i class="fas fa-angle-down"></i>          
+
+            </button>
+          </div>
+        </th>
+        <th>Raiting
+            <div class="icon">
+                <button class="angle" id="upraiting">
+                    <i class="fas fa-angle-up"></i>          
+                    </button>
+                <button class="angle " id="downraiting">
+                    <i class="fas fa-angle-down"></i>          
+    
+                </button>
+              </div>
+        </th>
+        <th>Delete</th>
+      </tr>
+      
+         </table>
+
+  </div>
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>

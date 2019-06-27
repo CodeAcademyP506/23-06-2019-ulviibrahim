@@ -1,0 +1,121 @@
+.header{
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    color: #a3a4a4;
+    border-radius:3px;
+    width: 75%;
+    height: 20px;
+
+}
+.title{
+    color: black;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.raiting{
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+.input{
+display: flex;
+justify-content: center;
+
+
+}
+.btnAdd{
+    background-color: #28a745;
+    border: 1px solid #28a745;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 4px;
+    margin-left: 15px;
+}
+#btnDelete{
+    background: #c82333;
+    border: 1px solid #bd2130;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 4px;
+    margin-left: 15px;
+}
+
+table {
+    margin-top: 20px;
+    font-family: arial, sans-serif;
+    /* border-collapse: collapse; */
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+    width: 33%;
+
+  }
+  #btnChange{
+      margin-right: 10px;
+      background: #3c1ab4;
+    border: 1px solid #2b21bd;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 4px;
+    margin-left: 15px;
+  }
+  th {
+           position: relative;
+
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  #xeta{
+      color: red; 
+      margin-top: 20px;
+      margin:0 auto;
+      display: none;
+  }
+  .angle{
+       background: white;
+       border:none;
+       display: flex;
+
+     
+       
+    
+  }
+.green{
+    color: rgb(97, 206, 94);
+   
+}
+
+.green i{
+    transform: scale(1.5)
+}
+
+  .angle:focus{
+      outline: none
+  }
+
+  .angle .fa-angle-up{
+position: absolute; 
+top: 15%;
+font-size: 15px;
+right: 38%;
+cursor: pointer;
+}
+.angle .fa-angle-down {
+    position: absolute;
+    bottom: 15%;
+    right: 38%;
+    cursor: pointer;
+    font-size: 15px;
+}
+    
