@@ -4,11 +4,16 @@
 }
 
 input{
-    color: #a3a4a4;
+  color: black;
     border-radius:3px;
     width: 75%;
     height: 20px;
 
+}
+
+.color{
+    color: #a3a4a4;
+    
 }
 .title{
     color: black;
