@@ -8,6 +8,7 @@ $(".titleInput").val()
  $(".titleInput").focus(function(){
     $(".titleInput").val(this.val, " ")
     $(".titleInput").css("border-color","black")
+  
 
  })
 
@@ -45,12 +46,16 @@ alert('Sıra nömrəsini düzgün daxil edin')
     $(".titleInput").val( "Movies Title")
   $(".rate").val( "Rate Movies from 0 to 10")
   
-  
+    $('input').addClass('color')
 
 
 
   
    
+})
+
+$('input').focus(function(){
+  $('input').removeClass('color')
 })
 
 
